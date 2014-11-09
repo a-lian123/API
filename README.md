@@ -11,3 +11,5 @@
 | 名称  | 类型  | 描述 |
 | :---- |:-----:| ----:|
 | client_name| string |**必需** |
+| secret_key | string | **必需** |
+| redirect_uri | string | **可选** |
