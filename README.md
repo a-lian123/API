@@ -64,6 +64,10 @@
 
 `POST https://api.wehoton.com/topic/new`
 
+### 删除话题
+
+`POST https://api.wehoton.com/topic/delete`
+
 ### 编辑话题
 
 `POST https://api.wehoton.com/topic/edit`
