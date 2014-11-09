@@ -58,7 +58,7 @@
 
 `GET https://api.wehoton.com/reply/:replyID`
 
-## 操作话题
+## 4. 操作话题
 
 ### 创建话题
 
@@ -76,7 +76,7 @@
 
 `POST https://api.wehoton.com/topic/favorite`
 
-## 操作回复
+## 5. 操作回复
 
 ### 创建回复
 
