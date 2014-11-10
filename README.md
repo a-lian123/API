@@ -43,11 +43,13 @@ https 暂不可用
 
 ### 按用户名获取
 
-`GET https://api.wehoton.com/user/:username/topics`
+完成度 ★★★★
+
+`GET https://api.wehoton.com/user/topics/:username`
 
 ### 按节点获取
 
-`GET https://api.wehoton.com/node/:nodename/topics`
+`GET https://api.wehoton.com/node/topics/:nodename`
 
 ### 获取单个话题
 
