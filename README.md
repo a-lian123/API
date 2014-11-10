@@ -11,7 +11,7 @@ https 暂不可用
 
 ## 1. 用户 OAuth 验证
 
-`GET https://api.wehoton.com/oauth/login`
+`https://api.wehoton.com/oauth/login`
 
 **参数**
 
@@ -55,7 +55,9 @@ https 暂不可用
 
 ### 获取单个话题
 
-`GET https://api.wehoton.com/topic/:topicID`
+完成度 ★★★★
+
+`GET https://api.wehoton.com/topics/id/:topicID`
 
 ## 3. 获取回复
 
