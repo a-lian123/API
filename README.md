@@ -41,17 +41,17 @@ https 暂不可用
 
 `GET https://api.wehoton.com/topics`
 
-### 按用户名获取
+### 按用户ID获取
 
 完成度 ★★★★
 
-`GET https://api.wehoton.com/user/topics/:username`
+`GET https://api.wehoton.com/user/topics/:userID`
 
 ### 按节点ID获取
 
 完成度 ★★★★
 
-`GET https://api.wehoton.com/node/topics/:id`
+`GET https://api.wehoton.com/node/topics/:nodeID`
 
 ### 获取单个话题
 
@@ -63,15 +63,21 @@ https 暂不可用
 
 ### 获取用户回复
 
-`GET https://api.wehoton.com/user/:username/replies`
+完成度 ★★★★
+
+`GET https://api.wehoton.com/user/replies/:userID`
 
 ### 获取话题回复
 
-`GET https://api.wehoton.com/topic/:topicID/replies`
+完成度 ★★★★
+
+`GET https://api.wehoton.com/topics/replies/:topicID`
 
 ### 获取单个回复
 
-`GET https://api.wehoton.com/reply/:replyID`
+完成度 ★★★★
+
+`GET https://api.wehoton.com/topics/reply/:replyID`
 
 ## 4. 操作话题
 
