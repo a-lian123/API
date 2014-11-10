@@ -47,9 +47,11 @@ https 暂不可用
 
 `GET https://api.wehoton.com/user/topics/:username`
 
-### 按节点获取
+### 按节点ID获取
 
-`GET https://api.wehoton.com/node/topics/:nodename`
+完成度 ★★★★
+
+`GET https://api.wehoton.com/node/topics/:id`
 
 ### 获取单个话题
 
