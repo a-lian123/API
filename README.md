@@ -2,6 +2,8 @@
 
 万花筒的 API 文档 （未完成）
 
+https 暂不可用
+
 ## 1. 用户 OAuth 验证
 
 `GET https://api.wehoton.com/oauth/login`
@@ -20,7 +22,7 @@
 
 ## 2. 获取话题
 
-**通用的参数**
+**通用的参数** 
 
 | 名称  | 类型  | 描述 |
 | :---- |:-----:| :----|
@@ -29,6 +31,8 @@
 
 
 ### 按时间顺序获取 
+
+完成度 ★★★★
 
 `GET https://api.wehoton.com/topics`
 
