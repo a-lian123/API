@@ -4,6 +4,11 @@
 
 https 暂不可用
 
+| 完成度  | 描述  |
+| :---- |:-----|
+|★★★★|会增加功能|
+|★★★★★|稳定|
+
 ## 1. 用户 OAuth 验证
 
 `GET https://api.wehoton.com/oauth/login`
