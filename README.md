@@ -42,6 +42,37 @@ https 已启用
 
 `GET https://api.wehoton.com/topics`
 
+返回内容示例
+
+```json
+[
+    {
+    "order":0,
+    "id":891,
+    "title":"话题标题",
+    "content":"话题内容",
+    "addtime":1415685944,
+    "updatetime":1415690146,
+    "replies":"3",
+    "user":{
+        "uid":449,
+        "name":"RubyRose",
+        "avatar":""
+    },
+    "lastreplyby":{
+        "id":449,
+        "name":"RubyRose"
+    },
+    "node":{
+        "id":100,
+        "name":"programmer",
+        "title":"程序员"
+    }
+    },
+...
+]
+```
+
 ### 按用户ID获取
 
 完成度 ★★★★
@@ -94,9 +125,13 @@ https 已启用
 
 `POST https://api.wehoton.com/topic/edit`
 
-### 喜欢话题
+### 收藏话题
 
-`POST https://api.wehoton.com/topic/like`
+`POST https://api.wehoton.com/topic/favorite`
+
+### 感谢话题
+
+`POST https://api.wehoton.com/topic/thank`
 
 ### 收藏话题
 
